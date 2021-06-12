@@ -4,7 +4,19 @@
 
 
 ## Face Recognition
-
+1. Installing [python 3.6](https://www.python.org/downloads/release/python-360/)
+2. Go to `c:/users/username/appdata/local/prgms/python/python3.6/scripts`
+3. Open terminal and install following pacages:
+	- `pip install opencv-python`
+	- `pip install opencv-contrib-python`
+	- `pip install Image`
+	- `conda install tensorflow keras`
+4. Open Face recognition folder
+	- Run `python face_datasets.py`
+	   >camera opens and captures photo to create datasets
+	- Run `python training.py`
+	- Run `python face_Recognition.py`
+		> Face Recognition output shows up
 
 
 ## Emotion Recognition
@@ -29,4 +41,5 @@
 5.  Open Terminal
 	-	`cd Emotion_Recognition` 
 	-	`python real_time_video.py`
-> Emotion Recognition is shown on the screen
+
+> Emotion Recognition output shows up
